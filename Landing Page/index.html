@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...your-sha512-here..." crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <i class="fa-solid fa-cloud-moon fs-3 me-2"></i>Hotel Villa
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarCollapse">
+                    <div class="navbar-nav ms-auto" style="gap:3rem">
+                        <a href="#" class="nav-item nav-link ">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#rooms" class="nav-item nav-link">Our Room</a>
+                        <a href="#gallery" class="nav-item nav-link">Gallery</a>
+                        <a href="#blog" class="nav-item nav-link">Blog</a>
+                        <a href="#contact" class="nav-item nav-link">Contact Us</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first_section">
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-form-template="formTemplate1">
+                   <div style="background-image: url('./Assets/dashboard3.jpeg');background-size: cover; height:100vh;width:100%">
+                    <div class="bg_transaprent_carousel">
+                        
+                    </div>
+                   </div>
+                  </div>
+                  <div class="carousel-item" data-form-template="formTemplate1">
+                   <div style="background-image: url('./Assets/background.jpg');background-size: cover; height:100vh;width:100%">
+                  
+                   </div>
+                  </div>
+                  <div class="carousel-item" data-form-template="formTemplate1">
+                   <div style="background-image: url('./Assets/dashboard.webp');background-size: cover; height:100vh;width:100%">
+                    <div class="bg_transaprent_carousel">
+                       
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+
+            <div id="login_form" class="container" >
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-4">
+                        <div class="card">
+                            <p>BOOK A ROOM ONLINE</p>
+                            <form>
+                                <div class="form-group mb-5">
+                                    <label class="mb-3 fs-5">Arrival</label>
+                                    <input type="date" class="form-control" placeholder="dd-mm-yyyy">
+
+                                </div>
+                                <div class="form-group mb-5">
+                                    <label class="mb-3 fs-5">Departure</label>
+                                    <input type="date" class="form-control" placeholder="dd-mm-yyyy">
+                                </div>
+
+                                <button type="submit" class="custom_btn">Submit</button>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about_section" id="about">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+
+                        <p class="about_title">ABOUT US</p>
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their
+                            dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with
+                            their software. Today it's seen all around the web; on templates, websites, and stock
+                            designs. </p>
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their
+                            dry-transfer sheets</p>
+                        <button type="submit" class="text-bg-dark custom_btn">Read More</button>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <figure class="p-5">
+                            <img src="./Assets/about3.jpg" alt="about image">
+
+                        </figure>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="room_section" id="rooms">
+            <div class="container">
+                <div class="row text-center pt-4">
+                    <p class="rooms">OUR ROOMS</p>
+                    <p >Lorem Ipsum available, but the majority have suffered</p>
+
+                </div>
+
+                <div class="row">
+                    <div class="  col-12 col-md-6 col-lg-4 p-4  ">
+                        <div class="card">
+                            <figure>
+                                <img src="./Assets/room1.avif" alt="">
+                                <figcaption class="room_caption">BED ROOM
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
+
+                    </div>
+
+                    <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                        <div class="card">
+                            <figure>
+                                <img src="./Assets/room2.webp" alt="">
+                                <figcaption class="room_caption">BED ROOM
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
+
+
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                        <div class="card">
+                            <figure>
+                                <img src="./Assets/bed4.webp" alt="">
+                                <figcaption class="room_caption">BED ROOM
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
+
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                        <div class="card">
+                            <figure>
+                                <img src="./Assets/bed.jpeg" alt="">
+                                <figcaption class="room_caption">BED ROOM
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
+
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                        <div class="card">
+                            <figure>
+                                <img src="./Assets/bed2.avif" alt="">
+                                <figcaption class="room_caption">BED ROOM
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
+
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                        <div class="card">
+                            <figure>
+                                <img src="./Assets/room1.avif" alt="">
+                                <figcaption class="room_caption">BED ROOM
+                                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="gallery_section" id="gallery">
+            <div class="container">
+                <div class="row text-center pt-4">
+                    <p class="gallery">GALLERY</p>
+                </div>
+                <div class="row">
+                    <div class="  col-12 col-md-6 col-lg-3 p-4  ">
+                        <figure>
+                            <img src="./Assets/room3.avif" alt="">
+                        </figure>
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/room2.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/bed.jpeg" alt="">
+                        </figure>
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/room1.avif" alt="">
+
+                        </figure>
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/galleryimg3.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/room4.avif" alt="">
+
+                        </figure>
+                    </div>
+                   
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/room1.avif" alt="">
+                        </figure>
+                    </div>
+                    <div class="  col-12 col-md-6 col-lg-3 p-4 ">
+                        <figure>
+                            <img src="./Assets/bed2.avif" alt="">
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="blog_section" id="blog">
+            <div class="bg_transaprent">
+                <div class="container">
+                    <div class="row text-center pt-4">
+                        <p class="blog">BLOG</p>
+                        <p class="blog_para">Lorem Ipsum available, but the majority have suffered</p>
+    
+                    </div>
+    
+                    <div class="row">
+                        <div class="  col-12 col-md-6 col-lg-4 p-4  ">
+                            <div class="card">
+                                <figure>
+                                    <img src="./Assets/blog2.jpg" alt="">
+                                    <figcaption class="blog_caption">
+                                        <p>BED ROOM</p>
+                                        <p>The Standard Chunk</p>
+                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are</p>
+                                    </figcaption>
+    
+                                </figure>
+                            </div>
+    
+    
+                        </div>
+    
+                        <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                            <div class="card">
+                                <figure>
+                                    <img src="./Assets/blog1.jpg" alt="">
+                                    <figcaption class="blog_caption">
+                                        <p>BED ROOM</p>
+                                        <p>The Standard Chunk</p>
+                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are</p>
+                                    </figcaption>
+    
+                                </figure>
+                            </div>
+    
+    
+    
+                        </div>
+                        <div class="  col-12 col-md-6 col-lg-4 p-4 ">
+                            <div class="card">
+                                <figure>
+                                    <img src="./Assets/blog1 (1).jpg" alt="">
+                                    <figcaption class="blog_caption">
+                                        <p>BED ROOM</p>
+                                        <p>The Standard Chunk</p>
+                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are</p>
+                                    </figcaption>
+    
+                                </figure>
+                            </div>
+    
+    
+                        </div>
+    
+                </div>
+    
+
+            </div>
+          
+
+        </section>
+
+        <section class="contact_section" id="contact">
+            <div class="container">
+
+                <div class="row text-center pt-4">
+                    <p>CONTACT</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <form action="" class="p-5">
+                            <input type="text" class="form-control mb-4" placeholder="name">
+                            <input type="text" class="form-control mb-4" placeholder="email">
+                            <input type="text" class="form-control mb-4" placeholder="phone number">
+                            <textarea name="text" id="" cols="71" rows="4" class="form-control mb-4" placeholder="message"></textarea>
+                            <button type="submit" class="text-bg-dark custom_btn">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571458558!2d72.7163731802861!3d19.082177512541442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1707641330374!5m2!1sen!2sin" width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="main_footer p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h3>Contact Us</h3>
+                            <li><i class="fa-solid fa-location-dot fs-5 me-3"></i>Address</li>
+                            <li><i class="fa-solid fa-phone-volume fs-5 me-2"></i>+01 91234567890</li>
+                            <li><i class="fa-regular fa-envelope fs-5 me-3"></i>hotelvilla@gmail.com</li>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h3>Menu Link</h3>
+                            <li><i class="fa-solid fa-house fs-5 me-3"></i>Home</li>
+                            <li><i class="fa-solid fa-address-card fs-5 me-3"></i>About</li>
+                            <li><i class="fa-solid fa-hotel fs-5 me-3"></i>Our Room</li>   
+                            <li><i class="fa-regular fa-images fs-5 me-3"></i>Gallery</li>
+                            <li><i class="fa-solid fa-blog fs-5 me-3"></i>Blog</li>
+                            <li><i class="fa-solid fa-phone-volume fs-5 me-2"></i>Contact Us</li>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h3>News Letter</h3>
+                            <input type="text" class="form-control mb-4 mt-4" placeholder="Enter your Email">
+                            <button type="submit" class="subscribe mb-4">Subscribe</button> 
+                            <div>
+                                <i class="fa-brands fa-facebook fs-4 me-2"></i>
+                                <i class="fa-brands fa-twitter fs-4 me-2"></i>
+                                <i class="fa-brands fa-youtube fs-4 me-2"></i>
+                                <i class="fa-brands fa-instagram fs-4 me-2"></i>
+                                <i class="fa-brands fa-linkedin-in fs-4 me-2"></i>
+                            </div>                      
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="last_footer">
+                <div class="conatiner">
+                    <div class="row text-center p-3">
+                        <p>&copy;2024 All Rights Reserved. Design by saipriya
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
