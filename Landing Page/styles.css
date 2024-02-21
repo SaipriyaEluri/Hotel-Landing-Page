@@ -314,3 +314,12 @@ header {
         margin-top: 200px;
     }
 }
+@media only screen and (max-width: 800px) {
+    .carousel-control-next{
+        display : none !important;
+    }
+    .carousel-control-prev{
+        display:none !important;
+    }
+
+}
